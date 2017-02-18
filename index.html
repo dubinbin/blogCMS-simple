@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="icon" href="public/favicon.ico">
+    <title>myapp</title>
+  </head>
+  <body>
+    <waiting v-if="waiting"></waiting>
+    <pop v-show="pop"></pop>
+    <router-view></router-view>	
+    <script src="public/build.js"></script>
+  </body>
+</html>
